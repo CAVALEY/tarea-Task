@@ -1,0 +1,322 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cards1{
+    position: relative;
+    width: 348px;
+    height: 157px;
+    left: 200px;
+    top: 100px;
+    margin: 24px;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.cabecera-cards1{
+    position: absolute;
+    width: 308px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+}
+
+.titulo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding: 4px 14px;*/
+
+    position: absolute;
+    width: 76px;
+    height: 23px;
+    /*left: 20px;
+    top: 20px;*/
+
+    background: rgba(36, 151, 86, 0.2);
+    border-radius: 18px;
+}
+
+.puntos1{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 280px;
+    /*top: 20px;*/
+}
+
+.text-titulo{
+    position: static;
+    width: 48px;
+    height: 15px;
+    left: 14px;
+    top: 4px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* Green 1 */
+
+    color: #219653;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.vec1{
+    position: absolute;
+    left: 9.38%;
+    right: 71.88%;
+    top: 40.62%;
+    bottom: 40.62%;
+    width: 4.5px;
+    height: 4.5px;
+
+/* Gray 4 */
+
+    background: #BDBDBD;
+    border-radius: 50%;
+}
+
+.vec2{
+    position: absolute;
+    left: 40.62%;
+    right: 40.62%;
+    top: 40.62%;
+    bottom: 40.62%;
+    width: 4.5px;
+    height: 4.5px;
+
+/* Gray 4 */
+
+    background: #BDBDBD;
+    border-radius: 50%;
+}
+
+.vec3{
+    position: absolute;
+    left: 71.88%;
+    right: 9.38%;
+    top: 40.62%;
+    bottom: 40.62%;
+    width: 4.5px;
+    height: 4.5px;
+
+/* Gray 4 */
+
+    background: #BDBDBD;
+    border-radius: 50%;
+}
+
+.textoMedio{
+    position: absolute;
+    width: 308px;
+    height: 45px;
+    left: 20px;
+    top: 56px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    
+    /* Gray 2 */
+    
+    color: #4F4F4F;
+}
+
+.pies-cards1{
+    position: absolute;
+    width: 308px;
+    height: 24px;
+    left: 20px;
+    top: 113px;
+}
+
+.iconos{
+    position: absolute;
+    width: 160.73px;
+    height: 18px;
+    /*left: 20px;*/
+    top: 3px;
+}
+
+.fecha{
+    position: absolute;
+    width: 62px;
+    height: 18px;
+    /*left: 20px;
+    top: 116px;*/    
+}
+
+.diaMes{
+    position: absolute;
+    width: 38px;
+    height: 18px;
+    left: 24px;
+    /*top: 116px;*/
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* Gray 3 */
+    
+    color: #828282;    
+}
+
+.icCalendario{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    /*left: 20px;*/
+    top: 1px;    
+}
+
+.calendario{
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 15.62%;
+    bottom: 9.38%;
+    
+    /* Gray 3 */
+    
+    border: 1.2px solid #828282;
+}
+
+.compCal{
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.38%;
+    bottom: 68.75%;
+    
+    /* Gray 3 */
+    
+    border: 1.2px solid #828282;
+}
+
+.mensaje{
+    position: absolute;
+    width: 28px;
+    height: 18px;
+    left: 86px;
+    /*top: 116px;*/    
+}
+
+.nube{
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    /*left: 106px;*/
+    top: 3px;
+    
+    /* Gray 3 */
+    
+}
+
+.numMensajes{
+    position: absolute;
+    width: 7px;
+    height: 18px;
+    left: 21px;
+    /*top: 116px;*/
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* Gray 3 */
+    
+    color: #828282;
+    
+}
+
+.clip{
+    position: absolute;
+    width: 22.73px;
+    height: 18px;
+    left: 138px;
+    /*top: 116px;*/
+}
+
+.numClip{
+    position: absolute;
+    width: 8px;
+    height: 18px;
+    left: 34.73px;
+    /*top: 116px;*/
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    /* Gray 3 */
+    
+    color: #828282;
+}
+
+.icClip{
+    position: absolute;
+    width: 8.46px;
+    height: 14.89px;
+    left: 20px;
+    top: 2.07px;
+    
+    /* Gray 3 */
+    
+}
+
+.bolita{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 93px;
+    top: 1px;
+    
+    /* Red */
+    
+    background: #EB5757;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.imag{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 284px;
+    /*top: 113px;*/
+
+    /*background: url(.png);*/
+}
+

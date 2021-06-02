@@ -1,0 +1,130 @@
+html,body{
+        background-color: #bbbbbb;
+}
+
+.bg-green{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 98px;
+    height: 23px;
+    
+    background: rgba(36, 151, 86, 0.2);
+    border-radius: 18px;
+}
+
+.text-green{
+    position: static;
+    width: 70px;
+    height: 15px;
+    left: 14px;
+    top: 4px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Green 1 */
+    
+    color: #219653;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.bg-blue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    
+    background: rgba(47, 128, 237, 0.2);
+    border-radius: 18px;
+}
+
+.text-blue{
+    position: static;
+    width: 61px;
+    height: 15px;
+    left: 14px;
+    top: 4px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #2F80ED;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.bg-violet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    width: 91px;
+    height: 23px;
+    
+    background: rgba(155, 81, 224, 0.2);
+    border-radius: 18px;
+}
+
+.text-violet{
+    position: static;
+    width: 63px;
+    height: 15px;
+    left: 14px;
+    top: 4px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    /* Purple 1 */
+    
+    color: #9B51E0;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
